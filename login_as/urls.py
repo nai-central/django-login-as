@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import *
 
 urlpatterns = patterns('login_as.views',
     url('^$', 'chooser', name='login-as-chooser'),
